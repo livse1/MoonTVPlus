@@ -4,7 +4,7 @@ services:
     runtime: image
     plan: free
     image:
-      url: ghcr.io/${{ github.repository_owner }}/moontvplus:v227.0.1
+      url: ghcr.io/mtvpls/moontvplus:latest
     envVars:
       - key: USERNAME
         sync: false
